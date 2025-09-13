@@ -69,3 +69,23 @@ button:disabled {
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
+
+.gallery-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+  margin-top: 1rem;
+}
+
+.thumb img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.auth-box, .input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+}
